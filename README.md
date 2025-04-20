@@ -8,7 +8,7 @@ python -m venv myenv
 
 Or install from the path with the sample path below:
 ```bash
-H:\AnacondaApp\envs\NLP_Course\python.exe -m venv myenv
+H:\AnacondaApp\envs\Sentiment_env\python.exe -m venv myenv
 ```
 
 > After creating the virtual environment, activate it with the command
