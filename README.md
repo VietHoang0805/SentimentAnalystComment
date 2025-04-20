@@ -35,5 +35,7 @@ pip install PyQt5
 pip install keras-rectified-adam
 pip install keras-bert
 pip install pyvi
-
+pip install gensim
+pip install pandas
+pip install nltk
 ```
