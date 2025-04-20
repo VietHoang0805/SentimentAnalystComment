@@ -32,4 +32,5 @@ python main.py
 ```bash
 pip install tensorflow-cpu
 pip install PyQt5
+pip install keras-rectified-adam
 ```
