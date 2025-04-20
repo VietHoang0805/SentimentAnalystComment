@@ -33,4 +33,7 @@ python main.py
 pip install tensorflow-cpu
 pip install PyQt5
 pip install keras-rectified-adam
+pip install keras-bert
+pip install pyvi
+
 ```
