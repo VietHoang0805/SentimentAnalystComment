@@ -27,3 +27,9 @@ deactivate
 ```bash
 python main.py
 ```
+
+> Detail install libraries for UI main.py:
+```bash
+pip install tensorflow-cpu
+pip install PyQt5
+```
