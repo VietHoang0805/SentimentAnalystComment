@@ -4,3 +4,5 @@ keras-bert==0.85.0
 pyvi==0.1.1
 gensim==3.8.3
 PyQt5==5.15.0
+
+# tensorflow-1.15.2/python3.6 maybe
