@@ -22,3 +22,8 @@ myenv\Scripts\activate
 ```bash
 deactivate
 ```
+
+> You can run source python by using :
+```bash
+python main.py
+```
