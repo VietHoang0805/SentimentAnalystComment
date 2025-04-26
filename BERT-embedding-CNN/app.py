@@ -4,7 +4,7 @@ import torch
 from safetensors.torch import load_file
 
 # Load tokenizer và mô hình
-model_path = "./bertbase_checkpoints"
+model_path = "./bertrcnn_checkpoints"
 tokenizer = BertTokenizer.from_pretrained(
     pretrained_model_name_or_path=model_path
 )  # Khởi tạo tokenizer
@@ -13,7 +13,7 @@ tokenizer = BertTokenizer.from_pretrained(
 # Khởi tạo mô hình từ Hugging Face và nạp trọng số từ safetensors
 model = BertForSequenceClassification.from_pretrained(model_path, num_labels=2)
 # Tải trọng số mô hình từ safetensors
-safetensor_model = load_file(f"./bertbase_checkpoints/model.safetensors")
+safetensor_model = load_file(f"./bertrcnn_checkpoints/model.safetensors")
 model.load_state_dict(safetensor_model, strict=False)
 model.eval()  # Chuyển mô hình sang chế độ đánh giá
 
