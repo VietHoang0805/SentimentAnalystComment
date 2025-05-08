@@ -50,11 +50,11 @@ deactivate
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/sentiment-bert.git
+git clone https://github.com/VietHoang0805/SentimentAnalystComment.git
 cd BERT-base
 ```
 
-### Install dependencies
+### 2. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
